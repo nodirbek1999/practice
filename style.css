@@ -1,0 +1,62 @@
+body,
+h1,
+h2,
+h3,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f1f1f1;
+}
+
+#navbar {
+    background-color: coral;
+    height: 50px;
+    color: #fff;
+}
+
+.container {
+    padding: 0.7% 10%;
+}
+
+.container h1 {
+    font-family: sans-serif;
+}
+
+#box {
+    background-color: #333;
+}
+
+.container ul li {
+    list-style-type: none;
+    display: inline;
+}
+
+.container ul li a {
+    text-decoration: none;
+    padding: 10px 10px;
+    color: #fff;
+    display: inline-block;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+.container ul li:first-child a {
+    padding-left: 0;
+}
+
+#showcase {
+    background-color: lightgoldenrodyellow;
+    background-image: url(download.png);
+    background-repeat: no-repeat;
+    background-position: right center;
+    min-height: 300px;
+}
+
+#showcase h1 {
+    font-family: sans-serif;
+    padding-top: 70px;
+}
